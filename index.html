@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calorie Tracker</title>
+    
+</head>
+<body>
+    <span><img id="icon" src="calimg.jpg"></span>
+    <div style="text-align: center" class="container">
+        <h1 style="color:purple">Calorie Tracking App</h1>
+        <p class="big">Welcome to my Calorie Tracking App. Please enter the food item you consumed and how much calories it contained</p>
+        <div id="data">
+            <input style="padding-bottom: 20px;" type="text" id="food" placeholder="Enter Food">
+            <input style="padding-bottom: 20px;" type="text" id="calories" placeholder="Enter Calories">
+            <button id="Add">Add</button>
+        </div>
+        
+        <p><h2>Total: <span id="total">0</span></h2></p>
+
+        <table>
+            <tr>
+                <th>Food</th>
+                <th>Calories</th>
+                
+            </tr>
+        </table>
+
+        
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
